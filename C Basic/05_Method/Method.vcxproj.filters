@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08_2_Pointer_Array.cpp">
+    <ClCompile Include="Method.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

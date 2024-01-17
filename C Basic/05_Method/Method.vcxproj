@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a3ebab9b-ca76-4d2f-8043-2a135cbc7d5c}</ProjectGuid>
-    <RootNamespace>Test1</RootNamespace>
+    <ProjectGuid>{4cf97f78-23d1-41cc-9cce-c8dfd81f856a}</ProjectGuid>
+    <RootNamespace>Method</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>06_Test1</ProjectName>
+    <ProjectName>05_Method</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Test1.cpp" />
+    <ClCompile Include="Method.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

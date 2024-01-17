@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{70fe1989-7a35-4aa1-8db9-401a5a3bc3b2}</ProjectGuid>
-    <RootNamespace>InputOutput</RootNamespace>
+    <ProjectGuid>{004F02EC-B2AD-46ED-B0A2-F8DC94051A86}</ProjectGuid>
+    <RootNamespace>My04</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01_InputOutput_Variable</ProjectName>
+    <ProjectName>04_Continue_Break_Switch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="InputOutput.cpp" />
+    <ClCompile Include="Continue_Break_Switch.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
