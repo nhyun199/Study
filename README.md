@@ -1,9 +1,10 @@
-# Study
-이곳은 개인 공부를 위한 레포지토리입니다. / This Repository is for personal study.
+<h1 align="center">🙌 Welcome to Hyun's GitHub! 🙌</h2>
+
+<h3 align="center">이곳은 개인 공부를 위한 레포지토리입니다. / This Repository is for personal study.
 
 ###
 
-<div align="left">
+<div align="right">
   <a href="https://www.discord.com/users/1031054704681168946" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
   </a>
@@ -18,7 +19,7 @@
 
 ###
 
-<div align="left">
+<div align="right">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
