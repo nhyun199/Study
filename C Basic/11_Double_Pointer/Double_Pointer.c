@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void MaxAndMin(int* arr, int size, int** Dptr1, int** Dptr2)
 {
@@ -6,6 +6,17 @@ void MaxAndMin(int* arr, int size, int** Dptr1, int** Dptr2)
 
 	max = min = &arr[0];
 
+	for (int i = 0; i < size; i++)
+	{
+		if (*max < arr[i])
+			max = &arr[i];
+
+		if (*min > arr[i])
+			min = &arr[i];
+	}
+
+	*Dptr1 = max;
+	*Dptr2 = min;
 }
 
 int main()
@@ -27,7 +38,9 @@ int main()
 	int* minPtr;
 	int arr[5] = { 3,2,1,4,7 };
 
+	MaxAndMin(&arr, sizeof(arr) / sizeof(int), &maxPtr, &minPtr);
 
+	printf("최대 : %d, 최소 : %d\n", *maxPtr, *minPtr);
 	
 	return 0;
 }
