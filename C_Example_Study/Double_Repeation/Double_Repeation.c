@@ -1,11 +1,8 @@
 ﻿#include <stdio.h>
 
 int main()
-{
-    // * 을 5줄 출력
-    // * 이 줄바꿈마다 1개씩 증가
-     
-    for (int i = 1; i <= 5; i++)
+{       
+    for (int i = 1; i <= 5; i++) // 1번
     {        
         for (int j = 1; j <= i; j++)
         {
@@ -15,7 +12,7 @@ int main()
     }
     printf("\n");
 
-    for (int i = 1; i <= 5; i++)
+    for (int i = 1; i <= 5; i++) // 2번
     {
         for (int j = 1; j <= 2 * i - 1; j++)
         {
@@ -25,9 +22,9 @@ int main()
     }
     printf("\n");
 
-    for (int i = 1; i <= 5; i++)
+    for (int i = 5; i >= 1; i--) // 3번
     {
-        for (int j = 0; j < 6 - i; j++)
+        for (int j = 1; j <= i; j++)
         {
             printf("*");
         }
@@ -35,9 +32,45 @@ int main()
     }
     printf("\n");
 
-    for (int i = 0; i <= 5; i++)
+    for (int i = 1; i <= 5; i++) // 4번
     {
-        
+        for (int j = 1; j <= 5 - i; j++) 
+        {
+            printf(" ");
+        }
+        for (int j = 1; j <= i; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
     }
+    printf("\n");
 
+    for (int i = 1; i <= 5; i++) // 5번
+    {
+        for (int j = 1; j <= 5 - i; j++)
+        {
+            printf(" ");
+        }
+        for (int j = 1; j <= 2 * i - 1; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    for (int i = 5; i >= 1; i--) // 6번
+    {
+        for (int j = 1; j <= 5-i; j++)
+        {
+            printf(" ");
+        }
+        for (int j = 1; j <= 2 * i - 1; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    printf("\n");
 }
